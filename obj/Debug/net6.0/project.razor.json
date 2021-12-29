@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\.Net\\Eng.Rahim-Ghasemi\\Exercise\\S17\\sample1\\Views\\Home\\add_product.cshtml",
+      "TargetPath": "Views\\Home\\add_product.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\.Net\\Eng.Rahim-Ghasemi\\Exercise\\S17\\sample1\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16325,6 +16330,11 @@
     {
       "FilePath": "d:\\.Net\\Eng.Rahim-Ghasemi\\Exercise\\S17\\sample1\\Views\\Home\\Gallery.cshtml",
       "TargetPath": "Views\\Home\\Gallery.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\.Net\\Eng.Rahim-Ghasemi\\Exercise\\S17\\sample1\\Views\\Home\\Products.cshtml",
+      "TargetPath": "Views\\Home\\Products.cshtml",
       "FileKind": "mvc"
     },
     {

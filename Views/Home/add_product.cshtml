@@ -1,0 +1,34 @@
+@model Products
+
+    @* <a href="/home/add_product">press to add product</a> *@
+    @* <button></button> *@
+    @* <form action="/home/add_product">
+        
+        <input type="text" placeholder="Enter Brand" asp-for="Brand">
+        <input type="text" placeholder="Enter Model" asp-for="Model">
+        <input type="text" placeholder="Enter Price" asp-for="Price">
+
+        <button type="submit">Add</button>
+    </form> *@
+
+<form>
+  <div class="form-row align-items-center">
+    <div class="col-auto">
+      <label class="sr-only" for="inlineFormInput">Brand</label>
+      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Brand ..." asp-for="Brand">
+    </div>
+    <div class="col-auto">
+      <label class="sr-only" for="inlineFormInput">Model</label>
+      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Model ..." asp-for="Model">
+    </div>
+    <div class="col-auto">
+      <label class="sr-only" for="inlineFormInput">Price</label>
+      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Price ..." asp-for="Price">
+    </div>
+  
+    
+    <div class="col-auto">
+      <button type="submit" class="btn btn-success mb-2">Add</button>
+    </div>
+  </div>
+</form>

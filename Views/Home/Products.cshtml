@@ -1,0 +1,31 @@
+@model List<Products>
+
+
+
+<table style="margin-top:5px;" class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Brand</th>
+            <th scope="col">Model</th>
+            <th scope="col">Price</th>
+            <th scope="col">Image</th>
+            <th scope="col">Delete-Edit</th>
+        </tr>
+
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="col">@item.id</th>
+                <td>@item.Brand</td>
+                <td>@item.Model</td>
+                <td>@item.Price</td>
+                <td></td>
+                <td><button type="button" class="btn btn-danger btn-sm"><a style="color: white;" href="/home/delete/@item.id">Delete</a></button></td>
+            </tr>
+        }
+    </tbody>
+</table>
